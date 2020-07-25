@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.topnav{
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover{
+  background-color: #fff6e6;
+  color: black;
+}
+.topnav a.active{
+  background-color: #ffa500;
+  color: white;
+}
+.topnav b{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.centernav{
+  background-color: #ffa64d;
+  overflow: hidden;
+}
+.pass{
+  border: 3px solid;
+  color: white;
+  padding: 16px 12px;
+  font-family: fantasy;
+  margin: 2px;
+  height: 250px;
+}
+.centernav a:link{
+  color: black;
+}
+.centernav a:visited{
+  color: orange;
+}
+.centernav a:hover{
+  color: red;
+}
+.centernav h1{
+  background: #ffa64d;
+  display: block;
+  width: 120px;
+}
+#p{
+  padding: 20px 40px;
+  border: 2px solid black;
+  margin: 2px;
+  background: white;
+}
+#p1{
+  background: url("notes.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#p2
+{
+  background: url("quiz.jpg");
+}
+.l{
+  float: right;
+}
+#p3
+{
+  background: url("video.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  background: url(images/bg.jpg);
+  height: 150px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.center{
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+#formbutton{
+  border: 3px;
+  color: black;
+  padding: 16px 120px;
+  align-content: right;
+  text-decoration: none;
+  display: contents;
+  font: 250px;
+  margin: 20px 20px;
+  cursor: pointer;
+  display: block;
+}
+
+#notes{
+  padding: 15px;
+  border: 0px solid #ff6600;
+}
+
+#p11{
+  background: url("1st.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#p12
+{
+  background: url("2nd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#p13
+{
+  background: url("3rd.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#p14{
+  background: url("3rd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

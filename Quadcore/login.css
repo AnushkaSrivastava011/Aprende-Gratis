@@ -1,0 +1,32 @@
+.form {
+    display: inline-block;
+
+    border: 20px solid white;
+
+    padding: 20px;
+    border-radius: 20px;
+    text-shadow: 7px;
+    font-size: 20px;
+    length: 50%;
+    position: relative;
+    top: 130px;
+    color: white;
+
+}
+.b {
+    text-align: center;
+color: white;
+
+    background-image: url(signbg.jpg);
+  }
+.i
+{
+width: 300px;
+height: 30px;
+
+}
+.bt
+{
+  width: 300px;
+  height: 30px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up Here!</title>
+  <link rel="stylesheet" type="text/css" href="signup.css">
+  <script type="text/javascript">
+  function myFunction() {
+    var x;
+     x = document.getElementById("email").value;
+    var str = "srmist.edu.in";
+    var n=x.includes(str);
+      if(n=="false"){
+            alert("enter a valid email");}
+}
+  </script>
+  </head>
+  <body class="b">
+      <h1 id="h1">Register here!</h1>
+      <br><form method="post" id="form" class="form" action="studentpg.html">
+        Email:<br>
+        <input class="i" type="text" id="email" name="email" placeholder="Enter official email" required><br><br>
+        Password:
+        <br>
+        <input class="i" type="password" id="pass" name="pass" placeholder="Enter password"required><br><br>
+        Designation:
+        <br>
+        <input type="radio" name="desig" value="Teacher" required>Teacher<br>
+        <input type="radio" name="desig" value="Student" required>Student<br><br>
+        <button class="bt" onclick="myFunction()">SignUp</button><br><br>
+        <a style"font-size:120%;" href="login.html">Click to login!</a>
+        <p id="demo"></p>
+    </body>
+  </html>

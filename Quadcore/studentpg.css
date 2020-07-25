@@ -1,0 +1,125 @@
+.mydiv {
+ background-image: url(pencil.jpg);
+  text-align: left;
+  height: 200px;
+  font-style: italic;
+  padding-left: 5px;
+  position: relative;
+  text-shadow: 2px 2px;
+  border: 2px solid #0e166e;
+border-radius: 25px;
+}
+.h1
+{
+  position: absolute;
+  top: 50px;
+}
+.bt
+{
+  background-color: white;
+  color: black;
+  border: 2px solid #0e166e;
+  width: 15%;
+  height: 20%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 100%;
+  font-style: italic;
+  position: relative;
+  left: 83%;
+
+
+}
+.bt:hover{
+  background-color:#0e166e;
+  color: white;
+}
+.bb
+{
+  background-color: #d6811a;
+ background-image: url(bgstudent.jpg);
+ background-size: cover;
+}
+.div2
+{
+
+
+  height: 200px;
+  position: relative;
+  top: 180px;
+}
+.vid
+{
+  display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ed902d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: absolute;
+  left: 700px;
+  height: 200px;
+  width: 200px;
+
+}
+.vid:active {
+  background-color: #ed772d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.no
+{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ed902d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: absolute;
+left: 1000px;
+height: 200px;
+width: 200px;
+
+}
+.no:active {
+  background-color: #ed772d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+ .q
+ {
+   display: inline-block;
+   padding: 15px 25px;
+   font-size: 24px;
+   cursor: pointer;
+   text-align: center;
+   text-decoration: none;
+   outline: none;
+   color: #fff;
+   background-color: #ed902d;
+   border: none;
+   border-radius: 15px;
+   box-shadow: 0 9px #999;
+   position: absolute;
+   left: 1300px;
+   height: 200px;
+   width: 200px;
+
+ }
+ .q:active {
+   background-color: #ed772d;
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+ }
