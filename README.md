@@ -20,8 +20,9 @@ We can epitomize that this platform would be much interactive and flexible for t
 
 ### Instructions for usage
 
-It is an open source project and can be used directly by downloading the files, which we will be uploading soon.
-You can run the application by simply opening the html file in any browser.
+It is an open source project and can be used directly by downloading the files, which we have uploaded.
+You can run the application by simply opening the mainpg.html file in your browser.We will be uploading backend soon.
+
 
 ### Applications required to run
 
@@ -33,4 +34,4 @@ We are using JavaScript,HTML+CSS, PHP, Xampp server, Atom and SQL database.
 
 ### Download Source
 
-You can download the files from the repository (https://github.com/AnushkaSrivastava011)
+You can download the files from the repository (https://github.com/AnushkaSrivastava011/Aprende-Gratis)
